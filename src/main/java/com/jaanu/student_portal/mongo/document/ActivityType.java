@@ -1,0 +1,13 @@
+package com.jaanu.student_portal.mongo.document;
+
+public enum ActivityType {
+    CREATE_STUDENT,
+    UPDATE_STUDENT,
+    DELETE_STUDENT,
+    CREATE_MODULE,
+    UPDATE_MODULE,
+    DELETE_MODULE,
+    CREATE_MODULE_ENROLLMENT,
+    UPDATE_MODULE_ENROLLMENT,
+    DELETE_MODULE_ENROLLMENT
+}

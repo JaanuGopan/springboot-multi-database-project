@@ -1,0 +1,20 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: student-portal
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/student_portal_db
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  mongodb:
+    uri: mongodb://localhost:27017/student_portal_logs
